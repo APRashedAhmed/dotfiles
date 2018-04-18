@@ -105,3 +105,7 @@ log.txt
 *#
 .#*
 #*
+
+# Emacs
+emacs/emacs.d/ido.last
+

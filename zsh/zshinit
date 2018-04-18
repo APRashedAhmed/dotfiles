@@ -5,5 +5,7 @@
 # Change default zim location
 export ZIM_HOME=$DOTPATH/zsh/zim
 
+export ZSH_PLUGINS_ALIAS_TIPS_TEXT="Alias tip: "
+
 # Start zim
 [[ -s ${ZIM_HOME}/init.zsh ]] && source ${ZIM_HOME}/init.zsh
