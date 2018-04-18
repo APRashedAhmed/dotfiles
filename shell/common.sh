@@ -4,7 +4,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # We will need miniconda for all setups
-export PATH="/home/apra/miniconda3/bin:$PATH"
+export PATH="$HOME/miniconda3/bin:$PATH"
 
 # Set the x11 display. Make sure the x11 server is running!
 export DISPLAY=:0
@@ -27,5 +27,5 @@ fi
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-# Basic prompt
-export PS1='${PWD#"${PWD%/*/*}/"} \$ '
+# Default user
+export DEFAULT_USER="apra"

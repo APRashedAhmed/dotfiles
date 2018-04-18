@@ -7,6 +7,10 @@
 - link:
     ~/.dotfiles: ''
     ~/.zshrc: 'zsh/zshrc'
+    ~/.zimrc: 'zsh/zimrc'
+    ~/.zlogin: 'zsh/zlogin'
+    ~/.zprofile: 'zsh/zprofile'
+    ~/.zshenv: 'zsh/zshenv'
     ~/.bashrc: 'bash/bashrc'
     ~/.bash_profile: 'bash/bash_profile'
     ~/.bash_logout: 'bash/bash_logout'
@@ -15,6 +19,7 @@
     ~/.ipython: 'ipython'
     ~/.jupyter: 'jupyter'
     ~/.gitconfig: 'git/gitconfig'
+    ~/.condarc: 'conda/condarc'
     
 - shell:
     - [git submodule update --init --recursive, Installing submodules]  
