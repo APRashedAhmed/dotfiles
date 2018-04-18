@@ -1,9 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot.git
-[submodule "oh_my_zsh"]
-	path = zsh/oh_my_zsh
-	url = https://github.com/apra93/oh-my-zsh.git
 [submodule "zsh-syntax-highlighting"]
 	path = zsh/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git

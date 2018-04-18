@@ -1,0 +1,20 @@
+- defaults:
+    link:
+      relink: true
+      
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.zshrc: 'zsh/zshrc'
+    ~/.bashrc: 'bash/bashrc'
+    ~/.bash_profile: 'bash/bash_profile'
+    ~/.bash_logout: 'bash/bash_logout'
+    ~/.emacs: 'emacs/emacs'
+    ~/.emacs.d: 'emacs/emacs.d'
+    ~/.ipython: 'ipython'
+    ~/.jupyter: 'jupyter'
+    ~/.gitconfig: 'git/gitconfig'
+    
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]  
