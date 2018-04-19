@@ -1,3 +1,53 @@
+[alias]
+	aliases = config --get-regexp alias
+	st = status
+	s = status -s
+	co = checkout
+	cm = commit
+	uncommit = reset HEAD~
+	ucm = reset HEAD~
+	df = diff --color --abbrev
+
+	# Amend the currently staged files to the latest commit
+	amend = commit --amend --reuse-message=HEAD
+	
+# so much color
+[color]
+	ui = auto
+	
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = red
+
+[help]
+	autocorrect = 1
+
+# URL shorthands
+
+[url "git@github.com:"]
+
+	insteadOf = "gh:"
+	pushInsteadOf = "github:"
+	pushInsteadOf = "git://github.com/"
+
+[url "git://github.com/"]
+
+	insteadOf = "github:"
+
+[url "git@gist.github.com:"]
+
+	insteadOf = "gst:"
+	pushInsteadOf = "gist:"
+	pushInsteadOf = "git://gist.github.com/"
+
+[url "git://gist.github.com/"]
+
+	insteadOf = "gist:"
+
 [user]
 	email = dd.apra93@gmail.com
 	name = apra
+	
+[credential]
+        helper = cache --timeout=14400
