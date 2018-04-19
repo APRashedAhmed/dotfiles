@@ -11,8 +11,21 @@
 # Select what modules you would like enabled.
 # The second line of modules may depend on options set by modules in the first
 # line. These dependencies are noted on the respective module's README.md.
-zmodules=(alias-tips archive directory environment git-info history input utility custom \
-          fast-syntax-highlighting history-substring-search prompt completion)
+zmodules=(you-should-use \
+	  256color \
+	  archive \
+	  directory \
+	  environment \
+	  git-info \
+	  history \
+	  input \
+	  custom \
+	  fast-syntax-highlighting \
+	  history-substring-search \
+	  prompt \
+	  completion \
+	  command-not-found
+	 )
 
 
 ###################

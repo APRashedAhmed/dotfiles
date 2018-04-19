@@ -4,9 +4,8 @@
 
 # Where are the dotfiles
 DOTPATH=$HOME/.dotfiles
-SHELLPATH=$DOTPATH/shell
 # Start by sourcing the common script
-source $SHELLPATH/common.sh
+source $DOTPATH/shell/shellrc
 
 # If not running interactively, don't do anything
 case $- in

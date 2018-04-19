@@ -5,8 +5,9 @@
 export DOTPATH=$HOME/.dotfiles
 # Define where the zsh folder is
 export ZSHPATH=$DOTPATH/zsh
-# Start by sourcing the common script
-source $DOTPATH/shell/common.sh
 
-# Source a framework setup
+# Start by sourcing the common script
+source $DOTPATH/shell/shellrc
+
+# Source the framework setup
 source $ZSHPATH/zshinit
