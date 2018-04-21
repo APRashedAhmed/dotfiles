@@ -7,17 +7,21 @@
 - link:
     # Always include this so the dotfiles can find this repo
     ~/.dotfiles: ''
+    
     # Z-Shell
     ~/.zshrc: 'zsh/zshrc.zsh'
     ~/.zimrc: 'zsh/zimrc.zsh'
     ~/.zshenv: 'zsh/zshenv.zsh'
+    
     # Bash
     ~/.bashrc: 'bash/bashrc.sh'
     ~/.bash_profile: 'bash/bash_profile.sh'
     ~/.bash_logout: 'bash/bash_logout.sh'
+    
     # Emacs 
     ~/.emacs: 'emacs/emacs'
     ~/.emacs.d: 'emacs/emacs.d'
+    
     # Misc
     ~/.ipython: 'ipython'
     ~/.jupyter: 'jupyter'
@@ -25,4 +29,11 @@
     ~/.condarc: 'conda/condarc.yaml'
     
 - shell:
+    # Make sure everything is up-to-date
+    - [sudo apt-get update -y && sudo apt-get upgrade -y]
+    
+    # Install the apt-get requirements for the repo
+    - [sudo apt-get install `cat requirements.txt`, Installing requirements]
+    
+    # Add in all the submodules
     - [git submodule update --init --recursive, Installing submodules]  
