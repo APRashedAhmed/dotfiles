@@ -3,7 +3,9 @@
 # Where are the dotfiles
 export DOTPATH=$HOME/.dotfiles
 # Define where the zsh folder is
-export COMMONPATH=$DOTPATH/shell
+export COMMONPATH=$DOTPATH/common
+
+# Common setup
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -37,3 +39,9 @@ export DEFAULT_USER="apra"
 
 # Common aliases
 source $COMMONPATH/aliases.sh
+
+# Source the local config if it exists
+[[ -f ~/.commonrc.local ]] && source ~/.commonrc.local
+
+# Source Operating System scripts
+source $DOTPATH/os/osrc.sh

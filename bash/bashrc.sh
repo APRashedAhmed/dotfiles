@@ -4,8 +4,9 @@
 
 # Where are the dotfiles
 DOTPATH=$HOME/.dotfiles
-# Start by sourcing the common script
-source $DOTPATH/common/setup.sh
+# Start by sourcing the common script. This gives all the common shell setep,
+# aliases, functions, etc.
+source $DOTPATH/common/commonrc.sh
 
 # If not running interactively, don't do anything
 case $- in
@@ -100,3 +101,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Source local bash setup if it exists
+[[ -f ~/.bashrc.local ]] && source ~/.bashrc.local
