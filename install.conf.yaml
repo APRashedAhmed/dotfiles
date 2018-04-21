@@ -27,8 +27,8 @@
     # Misc
     ~/.ipython: 'ipython'
     ~/.jupyter: 'jupyter'
-    ~/.gitconfig: 'git/gitconfig.cfg'
-    ~/.condarc: 'conda/condarc.yaml'
+    ~/.gitconfig: 'gitconfig.cfg'
+    ~/.condarc: 'condarc.yaml'
     
 - shell:
     # Make sure everything is up-to-date
