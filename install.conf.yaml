@@ -8,8 +8,6 @@
     ~/.dotfiles: ''
     ~/.zshrc: 'zsh/zshrc'
     ~/.zimrc: 'zsh/zimrc'
-    ~/.zlogin: 'zsh/zlogin'
-    ~/.zprofile: 'zsh/zprofile'
     ~/.zshenv: 'zsh/zshenv'
     ~/.bashrc: 'bash/bashrc'
     ~/.bash_profile: 'bash/bash_profile'
