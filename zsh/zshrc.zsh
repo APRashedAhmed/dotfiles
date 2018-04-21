@@ -7,7 +7,7 @@ export ZSHPATH=$DOTPATH/zsh
 
 # Start by sourcing the common script. This gives all the common shell setep,
 # aliases, functions, etc.
-source $DOTPATH/shell/shellrc
+source $DOTPATH/common/setup.sh
 
 # Load zsh aliases
 source $ZSHPATH/aliases.zsh

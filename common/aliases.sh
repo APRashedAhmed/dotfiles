@@ -1,6 +1,5 @@
 # Aliases common to all unix shells
 
-
 # # ls and variants
 
 # Add color by default

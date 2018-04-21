@@ -36,4 +36,4 @@ fi
 export DEFAULT_USER="apra"
 
 # Common aliases
-source $COMMONPATH/aliases
+source $COMMONPATH/aliases.sh
