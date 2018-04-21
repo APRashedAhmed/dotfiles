@@ -6,9 +6,9 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.zshrc: 'zsh/zshrc'
-    ~/.zimrc: 'zsh/zimrc'
-    ~/.zshenv: 'zsh/zshenv'
+    ~/.zshrc: 'zsh/zshrc.zsh'
+    ~/.zimrc: 'zsh/zimrc.zsh'
+    ~/.zshenv: 'zsh/zshenv.zsh'
     ~/.bashrc: 'bash/bashrc'
     ~/.bash_profile: 'bash/bash_profile'
     ~/.bash_logout: 'bash/bash_logout'
