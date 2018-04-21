@@ -1,12 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot.git
-[submodule "zsh/zim"]
-	path = zsh/zim/zimfw
-	url = https://github.com/zimfw/zimfw.git
-[submodule "zsh/zim/zim"]
-	path = zsh/zim/zim
-	url = https://github.com/apra93/zimfw.git
 [submodule "zsh/zimfw"]
 	path = zsh/zim
 	url = https://github.com/apra93/zimfw.git
