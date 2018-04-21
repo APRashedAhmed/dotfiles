@@ -23,9 +23,9 @@ Clone the repo into a suitable directory: ::
 
   $ git clone https://github.com/apra93/dotfiles.git
 
-*Note* :Running the ``install`` script will create a softlink to the repo in the
-``$HOME`` directory called ``.dotfiles``, so there are no limitations for where
-this can be cloned.
+*Note*: Running the ``install`` script will create a softlink to the repo in the
+``$HOME`` directory called ``.dotfiles``, so there are no limitations to where
+this should be cloned.
 
 Run the installation script: ::
 

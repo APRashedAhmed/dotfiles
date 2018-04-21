@@ -1,7 +1,9 @@
 - defaults:
     link:
+      # If a symlink is incorrectly linked, relink it
       relink: true
-      
+
+# Remove dead symlinks
 - clean: ['~']
 
 - link:
