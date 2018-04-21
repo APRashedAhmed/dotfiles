@@ -60,7 +60,6 @@ changeps1: False
 create_default_packages:
   - python
   - pip
-  - ipdb
 
 # disallowed specification names
 disallow:
