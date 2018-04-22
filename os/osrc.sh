@@ -21,4 +21,4 @@ if check_wsl ; then
 fi
 
 # Source the local config if it exists
-[[ -f ~/.osrc.local ]] && source ~/.osrc.local
+[[ -f ~/.local/.osrc ]] && source ~/.local/.osrc

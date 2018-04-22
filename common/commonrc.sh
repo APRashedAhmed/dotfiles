@@ -38,7 +38,7 @@ export DEFAULT_USER="apra"
 source $COMMONPATH/aliases.sh
 
 # Source the local config if it exists
-[[ -f ~/.commonrc.local ]] && source ~/.commonrc.local
+[[ -f ~/.local/.commonrc ]] && source ~/.local/.commonrc
 
 # Source Operating System scripts
 source $DOTPATH/os/osrc.sh

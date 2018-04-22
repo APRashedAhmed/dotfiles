@@ -17,4 +17,4 @@ export ZIM_HOME=$DOTPATH/zsh/zim
 [[ -s ${ZIM_HOME}/init.zsh ]] && source ${ZIM_HOME}/init.zsh
 
 # Source local zsh setup if it exists
-[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+[[ -f ~/.local/.zshrc ]] && source ~/.local/.zshrc

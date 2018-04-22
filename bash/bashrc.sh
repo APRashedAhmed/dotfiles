@@ -103,4 +103,4 @@ if ! shopt -oq posix; then
 fi
 
 # Source local bash setup if it exists
-[[ -f ~/.bashrc.local ]] && source ~/.bashrc.local
+[[ -f ~/.local/.bashrc ]] && source ~/.local/.bashrc
