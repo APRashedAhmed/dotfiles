@@ -1,9 +1,9 @@
 # Common setup for various shells
 
 # Where are the dotfiles
-export DOTPATH=$HOME/.dotfiles
+DOTPATH=$HOME/.dotfiles
 # Define where the zsh folder is
-export COMMONPATH=$DOTPATH/common
+COMMONPATH=$DOTPATH/common
 
 # Common setup
 
@@ -12,9 +12,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # We will need miniconda for all setups
 export PATH="$HOME/miniconda3/bin:$PATH"
-
-# Set the x11 display. Make sure the x11 server is running!
-export DISPLAY=localhost:0
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then

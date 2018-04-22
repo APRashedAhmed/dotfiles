@@ -36,6 +36,19 @@ This will clear out dead symlinks, create all the listed symlinks, update your
 ``requirements.txt`` file, and then recursively clone or update all the git
 submodules.
 
+Source Order
+------------
+
+Generally, the order of sourced files follow the following scheme:
+
+- Common: Setup common to all OSs, organizations, or shells
+- Common-Local: Local common setup
+- OS: Setup common between different OSs
+- OS-Local: Local OS setup
+- Shell: Setup common to the specific shell type
+- Shell-Local: Setup common to the local shell type
+
+
 Acknowledgements
 ----------------
 
