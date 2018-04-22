@@ -109,3 +109,5 @@ log.txt
 # Emacs
 emacs/emacs.d/ido.last
 
+# Any history file
+*history*
