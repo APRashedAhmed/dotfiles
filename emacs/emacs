@@ -60,7 +60,7 @@
      ("melpa" . "http://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (yaml-mode ess ido-vertical-mode fill-column-indicator powerline darkokai-theme))))
+    (markdown-mode+ markdown-mode dockerfile-mode yaml-mode ess ido-vertical-mode fill-column-indicator powerline darkokai-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
