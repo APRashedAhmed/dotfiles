@@ -36,6 +36,8 @@ export DEFAULT_USER="apra"
 
 # Common aliases
 source $COMMONPATH/aliases.sh
+# Common functions
+source $COMMONPATH/functions.sh
 
 # Source the local config if it exists
 [[ -f ~/.local/.commonrc ]] && source ~/.local/.commonrc

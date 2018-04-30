@@ -12,6 +12,7 @@
 # The second line of modules may depend on options set by modules in the first
 # line. These dependencies are noted on the respective module's README.md.
 zmodules=(you-should-use \
+	  workon \
 	  256color \
 	  archive \
 	  directory \
