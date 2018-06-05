@@ -2,8 +2,8 @@
 Apra Dotfiles
 =============
 
-.. |MIT license| image:: https://img.shields.io/badge/License-MIT-blue.svg
-   :target: https://lbesson.mit-license.org/
+.. image:: https://img.shields.io/github/license/Naereen/StrapDown.js.svg
+   :target: https://github.com/apra93/dotfiles/blob/master/LICENSE.md      
       
 Welcome to my dotfiles page. It's a work in progress, but is at a point where it
 can be used (by me) on a number of systems. Also, there are no guarantees that
