@@ -1,7 +1,16 @@
 =============
 Apra Dotfiles
 =============
-Currently under construction...
+
+.. |MIT license| image:: https://img.shields.io/badge/License-MIT-blue.svg
+   :target: https://lbesson.mit-license.org/
+      
+Welcome to my dotfiles page. It's a work in progress, but is at a point where it
+can be used (by me) on a number of systems. Also, there are no guarantees that
+this will work for people other than myself, my first guess being because of the
+forked submodules. Maybe in the future I'll get around to making everything more
+general, but for now the documentation here is meant to serve as a reference for
+myself when I inevitably forget how it all works in a few days.
 
 Requirements
 ------------
@@ -9,7 +18,7 @@ Requirements
 The requirements differ depending on the desired shell, OS, organization, etc.
 Currently all installation is done through ``apt-get``, meaning the ``install``
 script to automatically install the requirements will fail if the command isn't
-available.
+available (i.e. no Centos support yet).
 
 Additional Requirements:
 
@@ -54,9 +63,3 @@ Acknowledgements
 
 - Dotfile setup powered by `dotbot <https://git.io/dotbot>`_
 - Zsh setup powered by `ZIM <https://github.com/zimfw/zimfw>`_
-
-License
--------
-Copyright (c) 2017-2018 Abdullah P Rashed Ahmed. Released under the MIT License.
-See LICENSE.md for details.
-
