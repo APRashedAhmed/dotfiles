@@ -21,8 +21,8 @@
     ~/.bash_logout: 'bash/bash_logout.sh'
     
     # Emacs 
-    ~/.emacs: 'emacs/emacs'
-    ~/.emacs.d: 'emacs/emacs.d'
+    ~/.emacs: 'dotemacs/emacs'
+    ~/.emacs.d: 'dotemacs/emacs.d'
     
     # Misc
     ~/.ipython: 'ipython'

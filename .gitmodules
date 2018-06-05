@@ -4,3 +4,6 @@
 [submodule "zsh/zimfw"]
 	path = zsh/zim
 	url = https://github.com/apra93/zimfw.git
+[submodule "dotemacs"]
+	path = dotemacs
+	url = https://github.com/apra93/dotemacs.git
