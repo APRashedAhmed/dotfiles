@@ -111,3 +111,6 @@ emacs/emacs.d/ido.last
 
 # Any history file
 *history*
+
+# Jupyterlab Workspaces
+jupyter/lab/workspaces/*
