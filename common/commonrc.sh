@@ -34,6 +34,9 @@ fi
 # Default user
 export DEFAULT_USER="apra"
 
+# Default machine
+export DEFAULT_LOCALHOST="apra-xps-13"
+
 # Common aliases
 source $COMMONPATH/aliases.sh
 # Common functions
