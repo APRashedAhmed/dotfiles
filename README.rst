@@ -41,7 +41,7 @@ Run the installation script: ::
   $ sudo ./install
 
 This will clear out dead symlinks, create all the listed symlinks, update your
-``apt-get`` packages, `` apt-get``install the requirements listed in the
+``apt-get`` packages, ``apt-get`` install the requirements listed in the
 ``requirements.txt`` file, and then recursively clone or update all the git
 submodules.
 
@@ -56,6 +56,12 @@ Generally, the order of sourced files follow the following scheme:
 - OS-Local: Local OS setup
 - Shell: Setup common to the specific shell type
 - Shell-Local: Setup common to the local shell type
+
+Installing Zsh
+--------------
+
+Follow `this gist <https://gist.github.com/apra93/7ecde84e36de6040cb1f2d023236c3b3>`_
+to install Zsh from source. Note any comments.
 
 
 Acknowledgements
