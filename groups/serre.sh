@@ -21,4 +21,5 @@ alias x7='ssh abdullah_rashed@$x7'
 alias x8='ssh abdullah@$x8'
 alias x9='ssh abdullah@$x9'
 
-
+# Nvidia-smi
+alias nsmi='nvidia-smi'
