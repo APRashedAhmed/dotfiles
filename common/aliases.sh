@@ -38,10 +38,14 @@ alias findf='find . -type f -name'
 alias df='df -kh'
 alias du='du -kh'
 
+
 # # Miscellaneous
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
+
+# Convenience for wget to default to ~/Downloads
+alias wgetdl='wget -P $HOME/Downloads'
 
 # # Always wear a condom
 
@@ -55,7 +59,6 @@ if [[ ${OSTYPE} == linux* ]]; then
   alias chmod='chmod --preserve-root -v'
   alias chown='chown --preserve-root -v'
 fi
-
 
 # Include custom aliases if they're defined
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local

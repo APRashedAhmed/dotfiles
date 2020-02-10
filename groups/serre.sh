@@ -23,3 +23,20 @@ alias x9='ssh abdullah@$x9'
 
 # Nvidia-smi
 alias nsmi='nvidia-smi'
+
+export CONDA_PKGS_DIRS="/media/data/conda/pkgs"
+export CONDA_ENVS_DIRS="/media/data/conda/$USER/envs"
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/media/data/anaconda/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/media/data/anaconda/etc/profile.d/conda.sh" ]; then
+        . "/media/data/anaconda/etc/profile.d/conda.sh"
+    else
+        export PATH="/media/data/anaconda/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
