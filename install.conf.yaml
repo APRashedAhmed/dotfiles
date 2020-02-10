@@ -32,10 +32,10 @@
     
 - shell:
     # Make sure everything is up-to-date
-    - [sudo apt-get update -y && sudo apt-get upgrade -y, Updating apt-get]
+    #- [sudo apt-get update -y && sudo apt-get upgrade -y, Updating apt-get]
     
     # Install the apt-get requirements for the repo
-    - [sudo apt-get install `cat requirements.txt`, Installing requirements]
+    #- [sudo apt-get install `cat requirements.txt`, Installing requirements]
     
     # Add in all the submodules
     - [git submodule update --init --recursive, Installing and updating submodules]  
