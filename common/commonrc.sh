@@ -37,6 +37,9 @@ export DEFAULT_USER="apra"
 # Default machine
 export DEFAULT_LOCALHOST="apra-xps-13"
 
+# Keep track of wherever we are
+export HOSTNAME=$(hostname -A)
+
 # Common aliases
 source $COMMONPATH/aliases.sh
 # Common functions

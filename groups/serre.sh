@@ -24,19 +24,20 @@ alias x9='ssh abdullah@$x9'
 # Nvidia-smi
 alias nsmi='nvidia-smi'
 
-export CONDA_PKGS_DIRS="/media/data/conda/pkgs"
-export CONDA_ENVS_DIRS="/media/data/conda/$USER/envs"
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/media/data/anaconda/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/media/data/anaconda/etc/profile.d/conda.sh" ]; then
-        . "/media/data/anaconda/etc/profile.d/conda.sh"
+# This only applies to machines which can see data_cifs
+if globhost clps.brown.edu; then
+    # >>> conda initialize >>>
+    # !! Contents within this block are managed by 'conda init' !!
+    __conda_setup="$('/home/abdullah/data_cifs/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+    if [ $? -eq 0 ]; then
+	eval "$__conda_setup"
     else
-        export PATH="/media/data/anaconda/bin:$PATH"
+	if [ -f "/home/abdullah/data_cifs/miniconda3/etc/profile.d/conda.sh" ]; then
+	    . "/home/abdullah/data_cifs/miniconda3/etc/profile.d/conda.sh"
+	else
+	    export PATH="/home/abdullah/data_cifs/miniconda3/bin:$PATH"
+	fi
     fi
+    unset __conda_setup
+    # <<< conda initialize <<<
 fi
-unset __conda_setup
-# <<< conda initialize <<<
