@@ -53,6 +53,7 @@ alias wgetdl='wget -P $HOME/Downloads'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+alias ln='ln -i'
 
 # Always be verbose and disallow recursive changes
 if [[ ${OSTYPE} == linux* ]]; then
