@@ -7,12 +7,6 @@ COMMONPATH=$DOTPATH/common
 
 # Common setup
 
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# We will need miniconda for all setups
-export PATH="$HOME/miniconda3/bin:$PATH"
-
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
     export EDITOR='emacs -nw'
