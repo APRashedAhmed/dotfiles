@@ -32,6 +32,14 @@ alias findd='find . -type d -name'
 alias findf='find . -type f -name'
 
 
+# # Emacs
+alias em='emacs'
+alias emd='em --daemon'
+alias emc='emacsclient'
+alias emcc='emc -c'
+alias emct='emc -t'
+
+
 # # Resource Usage
 
 # 1k block size and human readable
