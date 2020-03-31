@@ -16,5 +16,8 @@ export ZIM_HOME=$DOTPATH/zsh/zim
 # Start zim
 [[ -s ${ZIM_HOME}/init.zsh ]] && source ${ZIM_HOME}/init.zsh
 
+# Source Brown setup while I am at brown
+source $DOTPATH/groups/brown.sh
+
 # Source local zsh setup if it exists
 [[ -f ~/.local/.zshrc ]] && source ~/.local/.zshrc
