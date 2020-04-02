@@ -1,5 +1,7 @@
 # Top level zshrc file
 
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+
 # Where are the dotfiles
 DOTPATH=$HOME/.dotfiles
 # Start by sourcing the common script. This gives all the common shell setep,
