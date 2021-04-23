@@ -9,9 +9,25 @@ if globhost brown.edu || globhost serre || globhost x; then
     export CONDA_PKGS_DIRS="/media/data_cifs/projects/prj_shared/anaconda3/pkgs"
     export CONDA_ENVS_DIRS="/media/data_cifs/projects/prj_shared/conda/$USER/envs"
 
-    if [[ ':$PATH:' != *'/media/data_cifs/projects/prj_shared/anaconda3/bin:'* ]]; then
-	export PATH=/media/data_cifs/projects/prj_shared/anaconda3/bin:$PATH
+    shell=$(basename $(readlink -f /proc/$$/exe))
+
+    # Check if .local/bin is in the path and add if not
+    if [[ ':$PATH:' != *':$HOME/.local/bin:'* ]]; then
+	export PATH=$HOME/.local/bin:$PATH
     fi
-    
-    /media/data_cifs/projects/prj_shared/anaconda3/bin/conda init
+
+    # >>> conda initialize >>>
+    # !! Contents within this block are managed by 'conda init' !!
+    __conda_setup="$('/media/data_cifs/projects/prj_shared/anaconda3/bin/conda' 'shell.$shell' 'hook' 2> /dev/null)"
+    if [ $? -eq 0 ]; then
+	eval "$__conda_setup"
+    else
+	if [ -f "/media/data_cifs/projects/prj_shared/anaconda3/etc/profile.d/conda.sh" ]; then
+	    . "/media/data_cifs/projects/prj_shared/anaconda3/etc/profile.d/conda.sh"
+	else
+	    export PATH="/media/data_cifs/projects/prj_shared/anaconda3/bin:$PATH"
+	fi
+    fi
+    unset __conda_setup
+    # <<< conda initialize <<<
 fi
