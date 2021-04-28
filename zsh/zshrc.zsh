@@ -1,6 +1,8 @@
 # Top level zshrc file
 
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+source ~/.profile
 
 # Where are the dotfiles
 DOTPATH=$HOME/.dotfiles
@@ -23,3 +25,4 @@ source $DOTPATH/groups/brown.sh
 
 # Source local zsh setup if it exists
 [[ -f ~/.local/.zshrc ]] && source ~/.local/.zshrc
+

@@ -11,6 +11,7 @@
 # Source local bash profile if it exists
 [[ -f ~/.local/.bash_profile ]] && source ~/.local/.bash_profile
 
+source ~/.profile
 
 # if running bash
 if [ -n "$BASH_VERSION" ]; then

@@ -29,6 +29,7 @@
     ~/.jupyter: 'jupyter'
     ~/.gitconfig: 'gitconfig.cfg'
     ~/.condarc: 'condarc.yaml'
+    ~/.profile: 'common/profile.sh'
     
 - shell:
     # Make sure everything is up-to-date
