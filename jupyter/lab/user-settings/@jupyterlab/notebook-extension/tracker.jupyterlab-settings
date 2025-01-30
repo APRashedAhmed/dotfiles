@@ -1,6 +1,10 @@
 {
     "codeCellConfig": {
-        "lineNumbers": true
+        "highlightActiveLine": true,
+        "highlightTrailingWhitespace": true,
+        "rulers": [
+            88
+        ]
     },
     "enableKernelInitNotification": false,
     "defaultCell": "code",
@@ -8,13 +12,15 @@
     "inputHistoryScope": "global",
     "kernelShutdown": false,
     "markdownCellConfig": {
-        "matchBrackets": false
+        "highlightActiveLine": true,
+        "highlightTrailingWhitespace": true
     },
     "rawCellConfig": {
-        "matchBrackets": false
+        "highlightActiveLine": true,
+        "highlightTrailingWhitespace": true
     },
     "scrollPastEnd": true,
-    "recordTiming": false,
+    "recordTiming": true,
     "overscanCount": 1,
     "maxNumberOutputs": 50,
     "scrollHeadingToTop": true,
