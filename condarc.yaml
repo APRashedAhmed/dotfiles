@@ -39,14 +39,14 @@ channels:
 #   - /opt/anaconda/envs
 
 # implies always using the --yes option whenever asked to proceed
-always_yes: True
+always_yes: true
 
 # disallow soft-linking (default is allow_softlinks: True,
 #                        i.e. soft-link when possible)
 # allow_softlinks: False
 
 # change ps1 when using activate (default True)
-changeps1: False
+changeps1: false
 
 # use pip when listing packages (default True)
 # use_pip: False
@@ -67,7 +67,7 @@ disallow:
 
 # show channel URLs when displaying what is going to be downloaded, and
 # in conda list
-show_channel_urls: True
+show_channel_urls: true
 
 # enable certain features to be tracked by default
 # track_features:
@@ -80,3 +80,4 @@ conda-build:
   # <CONDA_PREFIX>/conda-bld) This can also be set with the CONDA_BLD_PATH
   # environment variable.
   root-dir: ~/conda-builds
+solver: libmamba
