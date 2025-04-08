@@ -29,10 +29,10 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 export DEFAULT_USER="apra"
 
 # Default machine
-export DEFAULT_LOCALHOST="apra-xps-13"
+export DEFAULT_HOSTS=("apra-desktop-ubuntu" "apra-xps-13")
 
 # Keep track of wherever we are
-export HOSTNAME=$(hostname -A)
+export HOSTNAME=$(hostname)
 
 # Common aliases
 source $COMMONPATH/aliases.sh
