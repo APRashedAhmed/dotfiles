@@ -7,6 +7,9 @@ COMMONPATH=$DOTPATH/common
 
 # Common setup
 
+# Allow for forward search
+stty -ixon
+
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
     export EDITOR='emacs -nw'
